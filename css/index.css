@@ -1,0 +1,90 @@
+html, body {
+  margin: 0;
+  padding: 0;    
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: ; /* Add your custom font here */
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.white {
+  color: #ffffff;    
+}
+.ui.underline {
+  text-decoration: underline;
+}
+
+.no-padding.no-margin{
+  padding: 0px;
+  margin: 0px;
+}
+
+.border-round {
+  border: solid;
+  size: 3px;
+  border-radius: 3px; 
+}
+
+section {
+  padding: 60px 0px 60px 0px;   
+  margin: 0 auto;
+}
+
+.border-red {
+  border: solid;
+  border-color: #cc0000;      
+}
+
+.border-grey {
+  border: solid;
+  border-color: #cccccc;      
+}
+
+
+header {
+  background-color: #333333;  
+/* You can change the header background image here */    
+  background-image: url(images/header-background.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 100px 0px 100px 0px;
+  margin: 0 auto;  
+}
+
+#about {
+  background-image: url(images/tree_bark.png)
+} 
+
+footer {
+  background-color: #333333;
+  padding: 10px 20px 0px 20px;
+  margin: 0 auto;
+}
+
+#image-gallery {
+  background-color: #cc0000;
+}
+
+#banner {
+  background: url(images/full-width-image.jpg) no-repeat center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 200px 20px 200px 20px;
+  margin: 0 auto;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.no-padding {
+  padding: 0;    
+}
